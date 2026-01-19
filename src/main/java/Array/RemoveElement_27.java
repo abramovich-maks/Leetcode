@@ -54,8 +54,8 @@ Constraints:
 class RemoveElement_27 {
     public static void main(String[] args) {
 
-        int[] arr1 = new int[]{3, 2, 2, 3};
-        System.out.println();
+        int[] arr1 = new int[]{3,2,2,3};
+        System.out.println(removeElement(arr1, 3));
     }
 
     public static int removeElement(int[] nums, int val) {
